@@ -75,6 +75,17 @@ header .fa-bars{
     display: none;
 }
 
+
+
+
+
+
+header .fa-times{
+    transform: rotate(180deg);
+    color: var(--violet);
+    transition: -2s;
+}
+
 /* media queries */
 @media (max-width:768px){
 
@@ -105,5 +116,8 @@ header .fa-bars{
     header .navbar ul li a{
         font-size: 3rem;
         display: block;
+    }
+    header .nav-toggle{
+        top: 5.7rem;
     }
 }
