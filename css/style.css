@@ -39,11 +39,13 @@ header{
     padding: 1rem 2rem;
     z-index: 1000;
     transition: .2s;
+
 }
 .header-active{
     top: 0;
     width: 100%;
     border-radius: 0;
+    box-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.3);
 }
 header .navbar ul{
     display: flex;
@@ -79,11 +81,36 @@ header .fa-bars{
     font-size: 3rem;
     color: var(--pink);
     cursor: pointer;
-    display: none;
+    transition: .2s;
 }
 
 
 
+
+.home{
+    min-height: 100vh;
+    background: linear-gradient(rgba(198,59,250,.8),rgba(198,59,250,.8)),url(../images/bg.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    position: relative;
+}
+.home .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 14rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+
+
+
+
+
+    
 
 
 
